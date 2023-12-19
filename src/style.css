@@ -52,9 +52,34 @@ main {
 }
 
 .current-details {
-  color: #f65282;
+  color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   font-weight: 400;
+}
+
+.current-details strong {
+  color: rgb(255, 0, 179);
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.weather-app-emoji {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-app-unit {
+  font-size: 28px;
+  position: relative;
+  margin-top: 16px;
 }
 
 footer {
