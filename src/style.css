@@ -84,9 +84,20 @@ main {
 }
 
 .weather-forecast {
-  display: flex;
   margin-top: 20px;
+  color: black;
 }
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+  margin-left: 5px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
