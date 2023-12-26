@@ -80,10 +80,10 @@ main {
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: blue;
+  color: rgb(72, 184, 72);
   margin-top: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .weather-app-unit {
@@ -95,10 +95,8 @@ main {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
-  text-align: center;
 }
 .weather-forecast-date {
-  display: flex;
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;

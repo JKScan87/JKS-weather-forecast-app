@@ -84,7 +84,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-          <div class = "weather-forecast-day">
+        <div class = "weather-forecast-day">
             <div class="weather-forecast-date">${formatDay(day.time)}</div>
     
             <img src = "${
@@ -97,6 +97,7 @@ function displayForecast(response) {
             ${Math.round(day.temperature.minimum)}° </div>
             </div>
           </div>
+        
           `;
     }
   });
