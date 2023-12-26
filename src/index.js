@@ -62,16 +62,13 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
+function getForecast(city) {
+  let apiKey = "41319e274o17aaba3e24c4df247ct0f7";
+  let apiURL = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=imperial`;
+  console.log(apiURL);
+}
 function displayForecast() {
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
+  let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
   let forecastHTML = "";
 
@@ -97,3 +94,4 @@ function displayForecast() {
 
 searchCity("Los Angeles");
 displayForecast();
+getForecast("Los Angeles");
