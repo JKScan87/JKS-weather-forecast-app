@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -35,7 +35,7 @@ main {
 }
 
 .search-form-button {
-  background-color: rgb(72, 184, 72);
+  background-color: blue;
   font-size: 16px;
   color: white;
   border: none;
@@ -115,6 +115,10 @@ main {
 
 .weather-forecast-temperature {
   padding: 0 10px;
+}
+
+.weather-forecast-temperature-max {
+  font-weight: 400;
 }
 
 footer {
